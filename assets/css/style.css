@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    transition: all 0.5s;
+}
+
+body.dark {
+    background-color: #212227;
+    color: #e4e6e3;
+}
+
+.container {
+    max-width: 1140px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.blocos {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+ul.blocos li {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+}
+
+ul.blocos li:nth-child(1) {
+    background-color: blueviolet;
+}
+
+ul.blocos li:nth-child(2) {
+    background-color: purple;
+}
+
+ul.blocos li:nth-child(3) {
+    background-color: blue;
+}
+
+ul.blocos li:nth-child(4) {
+    background-color: maroon;
+}
+
+/*# sourceMappingURL=style.css.map */
